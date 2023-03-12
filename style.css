@@ -172,11 +172,11 @@ audio{
         left: -50px;
     }
     img.circle{
-        bottom : 240px;
-        left: 230px;
+         display: none;
     }
     .container{
         font-size: small;
+        margin-left: 7rem;
     }
     .container h1 {
         font-size: 2rem;
@@ -187,12 +187,6 @@ audio{
     .container h2{
         font-size: 1.5rem;
     }
-}
-
-@media (max-width:1500px){
-    img.circle{
-        display: none;
-    }
     nav{
         height: 10vh;
         width: 100%;
@@ -201,9 +195,6 @@ audio{
     nav .wrapper{
         flex-direction: row;
         justify-content: center;
-    }
-    .container{
-        margin-left: 7rem;
     }
 }
 
