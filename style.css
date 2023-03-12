@@ -33,7 +33,7 @@ img.circle{
     transform: scale(2);
     object-fit: scale-down;
     width: 5%;
-    left: 250px;
+    left: 90px;
     bottom: 245px;
 }
 .hero-wrapper{
@@ -189,7 +189,7 @@ audio{
     }
 }
 
-@media (max-width:1000px){
+@media (max-width:1500px){
     img.circle{
         display: none;
     }
